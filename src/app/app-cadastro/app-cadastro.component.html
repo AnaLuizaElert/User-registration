@@ -1,0 +1,17 @@
+  <input type="text" placeholder="Nome" [(ngModel)]="nome">
+  <input type="email" placeholder="E-mail" [(ngModel)]="email">
+  <input type="password" placeholder="Senha" [(ngModel)]="senha">
+  <input type="text" placeholder="Estado" [(ngModel)]="estado">
+  <input type="text" placeholder="Cidade" [(ngModel)]="cidade">
+  <input type="text" placeholder="Bairro" [(ngModel)]="bairro">
+  <select [(ngModel)]="genero">
+    <option value="Masculino"> Masculino</option>
+    <option value="Feminino"> Feminino</option>
+    <option value="Outro"> Outro</option>
+  </select>
+  <input type="number" placeholder="Idade" [(ngModel)]="idade">
+  <input type="url" placeholder="Link da foto" [(ngModel)]="foto">
+  <input type="text" placeholder="Qual sua cor preferida?(em inglês)" [(ngModel)]="cor">
+  <div id="div_button">
+      <input id="submit" (click)='enviarDados()' type="submit" value="Enviar">
+  </div>

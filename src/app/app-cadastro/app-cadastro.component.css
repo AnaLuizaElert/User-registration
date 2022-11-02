@@ -1,0 +1,24 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    width: 50vw;
+    margin: 1vh 20vw;
+}
+
+#div_button{    
+    margin: 1vh auto;
+}
+
+#button{
+    background-color: rgb(56, 55, 54);
+    border: 0ch;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#div_button :hover{
+    background-color: rgb(70, 70, 70);
+}

@@ -1,0 +1,33 @@
+*{
+    color: aliceblue;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+#header img{
+    width: 8vw;
+    height: auto;
+    padding: 1%;
+}
+
+.button_actions{
+    width: 15vw;
+    height: 15vh;
+    margin: auto;
+    background-color: transparent;
+    border: solid 2px white;
+}
+
+#flex_container_buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+
+#flex_container_buttons :hover{
+    background-color: rgb(61, 61, 61);
+}
