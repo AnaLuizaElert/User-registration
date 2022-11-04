@@ -1,0 +1,20 @@
+#flex_container_footer{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#flex_container_footer img{
+    width: 10vw;
+    height: auto;
+}
+
+#flex_container_footer p{
+    color:aliceblue;
+    margin: auto 37vw;
+}
+

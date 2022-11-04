@@ -1,0 +1,11 @@
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 72vh;   
+}
+
+img{
+    margin: auto;
+    height: 40vh;
+    width: auto;
+}

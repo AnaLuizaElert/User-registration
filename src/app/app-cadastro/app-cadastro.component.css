@@ -1,0 +1,33 @@
+#form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 4vh;
+    height: 50vh;
+    width: 55vw;
+    padding: 2%;
+    border: solid 2px gray;
+    border-radius: 40px;
+    background-color: gray;
+}
+
+input, select{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 20vw;
+    margin: 1vh 3vw;
+}
+
+select{
+    margin-right: 3.5vw;
+    cursor: pointer;
+}
+
+select:invalid {
+    color: gray;
+}
+
+#div_button{    
+    margin:auto;
+}

@@ -1,0 +1,12 @@
+#button_actions{
+    width: 15vw;
+    margin-right: 2vw;
+    background-color: transparent;
+    border: solid 2px white;
+    cursor: pointer;
+    color: azure;
+}
+
+#button_actions:hover{
+    background-color: rgb(61, 61, 61);
+}
