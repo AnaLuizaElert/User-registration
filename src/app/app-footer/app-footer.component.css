@@ -1,0 +1,24 @@
+#flex_container_footer{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-top: solid 5px gold;
+}
+
+#flex_container_footer img{
+    width: auto;
+    margin-top: 0.7%;
+    margin-left: 1.5%;
+    height: 9.5vh;
+}
+
+#flex_container_footer p{
+    color:aliceblue;
+    margin: auto 33vw;
+    white-space: nowrap;
+    font-size: 2.5rem;
+}

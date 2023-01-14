@@ -1,0 +1,24 @@
+*{
+    color: aliceblue;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+#img img{
+    margin: 4vh;
+    width: auto;
+    height: 9.5vh;
+    padding: 1%;
+    border: solid 0px transparent;
+    border-radius: 5px;
+}
+
+#flex_container_buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}

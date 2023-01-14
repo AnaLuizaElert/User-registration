@@ -1,0 +1,33 @@
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 72vh;   
+}
+
+img{
+    margin: auto;
+    height: 40vh;
+    width: auto;
+    margin-top: 1vh;
+}
+
+#text{
+    width: 38%;
+    padding: 0.6% 0.1%;
+    border-radius: 5px;
+    border: solid 0px transparent;
+    margin-left: 30%;
+    margin-top: 2%;
+    background: rgb(140,130,14);
+    background: linear-gradient(90deg, rgba(140,130,14,1) 0%, rgba(194,179,13,1) 35%, rgba(255,234,3,1) 100%);
+}
+
+#text p{
+    background-color: aliceblue;
+    width: 90%;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 3%;
+    border-radius: 5px;
+    border: solid 0px transparent;
+}

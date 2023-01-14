@@ -1,0 +1,17 @@
+<div id="mostrarDados">
+    <div class="dadoPessoa" *ngFor="let user of listaPessoas" [style.backgroundColor] = "user.cor" [style.color] = "user.cor == 'black'? 'white': 'black'">
+      <pre>
+        <picture>
+          <img src="{{user.foto}}">
+        </picture>
+        <app-item-nome [nome]="user.nome" ></app-item-nome>
+        Email: {{user.email}}
+        <app-item-estado [estado]="user.estado" ></app-item-estado>
+        Cidade: {{user.cidade}}
+        Bairro: {{user.bairro}}
+        Gênero: {{user.genero}}
+        Idade: {{user.idade}}
+        Senha: {{user.senha}}
+      </pre>
+    </div>
+</div>

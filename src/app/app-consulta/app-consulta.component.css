@@ -1,0 +1,22 @@
+#mostrarDados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5vh auto 25vh 10vw;
+
+}
+
+.dadoPessoa{
+    height: 35vh;
+    padding-right: 3%;
+    border-radius: 15px;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+
+img{
+    margin-top: 2vh;
+    border: solid 2px white;
+    border-radius: 15px;
+    height: 15vh;
+}
